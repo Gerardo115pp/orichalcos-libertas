@@ -1,3 +1,12 @@
+#[clients]
+/**/node_modules/
+
+#[tools]
+/**/.vscode
+
+#[directorys]
 Documentation/
+
+#[losse files]
 *.jpg
 *~
