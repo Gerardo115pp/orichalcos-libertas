@@ -1,0 +1,12 @@
+version: "3.7"
+
+services: 
+    download-service:
+        image: download-service:v0.1
+        ports: 
+            - 5006:5006
+        volumes: 
+            - /windows/Users/ElMar/Documents/Archivo Secreto de los misterios/Die Sexualkiste der Hölle/Carpeta filtro:/downloads
+        environment: 
+            DOWNLOAD_HOST: 0.0.0.0
+            DOWNLOAD_ROOT: /downloads
