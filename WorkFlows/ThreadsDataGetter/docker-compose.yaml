@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+    threads-data-getter-workflow:
+        image: threads-extractor:v0.2
+        volumes: 
+            - /home/el_maligno/SoftwareProjects/OrichalcosLibertasProject/WorkFlows/ThreadsDataGetter:/thread-extractor

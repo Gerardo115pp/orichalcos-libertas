@@ -12,3 +12,4 @@ Documentation/
 *.db
 *.jpg
 *~
+/**/threads_data.json
