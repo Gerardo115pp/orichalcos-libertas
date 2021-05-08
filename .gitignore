@@ -2,11 +2,13 @@
 /**/node_modules/
 
 #[tools]
+/**/__pycache__
 /**/.vscode
 
 #[directorys]
 Documentation/
 
 #[losse files]
+*.db
 *.jpg
 *~
